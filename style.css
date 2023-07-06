@@ -11,7 +11,7 @@
     justify-content: space-around;
     list-style: none;
     color: white;
-
+    background-repeat: no-repeat;
 }
 .logopic{
     width: 120px;
@@ -34,13 +34,22 @@
     padding: 15px;
     border-radius: 10px;
     margin-top: 20px;
-    background-color: rgb(89, 29, 145);
+    background-color: purple;
     color: white;
     border: 0px;
+}
+.btn1:hover{
+    background-color: yellow;
+    color: brown;
 }
 .title{
     font-size: 55px;
     font-weight: 900;
+}
+.description{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px ;
 }
 .banner-container{
     color: white;
@@ -49,4 +58,18 @@
     height: 100vh;
     align-items: center;
     background-image: url('images/background.png'), linear-gradient(45deg, rgb(255, 68, 0), rgb(111, 0, 255));
+}
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+.about-us{
+    background-image: url('images/background.png'),linear-gradient(45deg, purple, black);
+    color: white;
+}
+.about-title{
+    text-align: center;
+    padding: 30px;
 }
