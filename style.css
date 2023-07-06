@@ -27,3 +27,26 @@
 .item:hover{
     color: brown;
 }
+.banpic{
+    width: 350px;
+}
+.btn1{
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: rgb(89, 29, 145);
+    color: white;
+    border: 0px;
+}
+.title{
+    font-size: 55px;
+    font-weight: 900;
+}
+.banner-container{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url('images/background.png'), linear-gradient(45deg, rgb(255, 68, 0), rgb(111, 0, 255));
+}
