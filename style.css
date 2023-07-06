@@ -1,7 +1,29 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .menu-container{
-    background-color: rgb(43, 43, 43);
+    background-color: orangered;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+
+}
+.logopic{
+    width: 120px;
+}
+.menus{
+    display: flex;
+}
+.item{
+    margin-left: 10px;
+    padding-left: 25px;
+    font-size: 15px;
+}
+.item:hover{
+    color: brown;
 }
